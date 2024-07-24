@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body {
+  color: #fff2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.clock {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 260px;
+  height: 150px;
+  top: 230px;
+  box-shadow: 0 4px 8px 0 , 0 6px 20px 0 ,
+  inset 5px 5px 10px ,
+  inset 5px 5px 20px,
+  inset -5px -5px 15px  ;
+  border-radius: 10%;
+
+}
+
+
+#hex{
+  padding-top: 10px;
+  font-weight: 900;
+  top: 10px;
+  font-size: 40px;
+  position: absolute;
+}
+#time {
+    font-weight: bold;
+    position: absolute;
+    padding: 10px; 
+    right: 45px;
+    margin-right: 35px;
+    top: 60px;
+  }
+
+  #date{
+    right: 90px;
+    margin-right: 45px;
+    top: 100px;
+    right: 32px;
+    font-weight: 600;
+    position: absolute;
+  }
